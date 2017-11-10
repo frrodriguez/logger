@@ -1,0 +1,37 @@
+{
+  "name": "edere-api",
+  "version": "1.0.0",
+  "description": "Server api for Edere",
+  "dependencies": {
+    "config": "^1.28.0",
+    "express": "^4.16.2",
+    "mysql": "^2.15.0",
+    "reflect-metadata": "^0.1.10",
+    "typeorm": "^0.1.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.4",
+    "@types/config": "0.0.33",
+    "@types/mocha": "^2.2.44",
+    "@types/node": "^8.0.50",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.6.1"
+  },
+  "scripts": {
+    "production": "set NODE_ENV=production&&nodemon src/index.ts",
+    "start": "set NODE_ENV=development&& nodemon src/index.ts",
+    "test": "set NODE_ENV=test&& mocha -r ts-node/register src/**/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frrodriguez/edere-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frrodriguez/edere-api/issues"
+  },
+  "homepage": "https://github.com/frrodriguez/edere-api#readme"
+}

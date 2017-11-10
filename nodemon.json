@@ -1,0 +1,14 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    "src/**/*.spec.ts"
+  ],
+  "verbose": true,
+  "execMap": {
+    "ts": "node_modules/.bin/ts-node"
+  },
+  "watch": [
+    "src/**/*.ts"
+  ],
+  "ext": "ts"
+}
