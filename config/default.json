@@ -2,15 +2,22 @@
     "App" : {
         "PORT" : 3500
     },
-    "DB" : {
-        "type": "mysql",
-        "host": "localhost",
-        "port": 3306,
-        "username": "prueba2",
-        "password": "password",
-        "database": "logger",
-        "entities": [],
-        "synchronize": false,
-        "logging": false
+    "Persistence" : {
+        "MySql" : {
+            "DataBaseConfigConnection" : {
+                "type": "mysql",
+                "host": "localhost",
+                "port": 3306,
+                "username": "prueba2",
+                "password": "password",
+                "database": "logger",
+                "entities": [],
+                "synchronize": false,
+                "logging": false
+            }
+        }
+        
     }
+
+    
 }
